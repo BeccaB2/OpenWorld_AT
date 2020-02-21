@@ -7,6 +7,8 @@ using UnityEditor;
 
 public class MapGenerationEditor : Editor
 {
+    //public bool split = GameObject.Find("Mesh").GetComponent<SplitMesh>().meshSplit;
+
     public override void OnInspectorGUI()
     {
         // Create a button to generate the map
@@ -17,13 +19,13 @@ public class MapGenerationEditor : Editor
         {
             if(mapGen.autoUpdate)
             {
-                mapGen.GenerateMap();
+                mapGen.GenerateMap();    
             }
         }
 
         if(GUILayout.Button ("Generate Map"))
         {
-            mapGen.GenerateMap();
+           mapGen.GenerateMap();           
         }
     }
 }

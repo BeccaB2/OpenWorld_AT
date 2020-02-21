@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\MapGenerator.cs" />
      <Compile Include="Assets\Scripts\MeshGenerator.cs" />
      <Compile Include="Assets\Scripts\Noise.cs" />
+     <Compile Include="Assets\Scripts\SplitMesh.cs" />
      <Compile Include="Assets\Scripts\TextureGenerator.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/rebec/Documents/third year/AT/OpenWorld_AT/AT_OpenWorld/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

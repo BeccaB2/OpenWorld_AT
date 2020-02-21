@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\MapGenerationEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\SplitEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/rebec/Documents/third year/AT/OpenWorld_AT/AT_OpenWorld/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>

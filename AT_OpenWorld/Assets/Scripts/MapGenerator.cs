@@ -8,6 +8,10 @@ public class MapGenerator : MonoBehaviour
     public DrawMode drawMode;
 
     const int chunkSize = 241;
+
+    public int width = chunkSize;
+    public int height = chunkSize;
+
     [Range(0,6)]
     public int lod;
     public float noiseScale;
